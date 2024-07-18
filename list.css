@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width:100vw;
+}
+.header{
+    
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color:rgb(206, 174, 174);
+    padding:10px;
+}
+.title{
+    margin-left: 20px;
+}
+.navbars ul {
+    display: flex;
+}
+.navbars ul li{
+    list-style:none;
+    text-align: center;
+    padding-right:40px;
+    margin-left:20px;
+
+}
+.navbars ul li a{
+    text-decoration: none;
+    text-align: center;
+    color:black;
+    font-weight:600;
+}
+.navbars ul li a:hover{
+ color:rgb(250, 244, 244);
+}
+.navbars ul li a:active{
+    color:rgb(12, 233, 222);
+}
+.image-box{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 5em;
+    height:100%;
+    width:100%;
+}
+
+.image-box img{
+    width:50%;
+}
+.content-1{
+    width:60%;
+    margin:0 auto;
+}
+.content-1 p{
+    font-size: 14px;
+    padding:20px 0;
+}
+
+ .content-1 h1{
+    margin:50px 0;
+    text-align:center;
+}
+.image-box-2{
+        width:100%;
+        margin:0 auto;
+       
+}
+.image-box-2 img{
+    width:100%;
+}
+.section-2 h3{
+    margin-left:50px;
+    font-weight: 500;
+}
+.section-2{
+    margin-left:39px;
+}
+.section-3 h3{
+    margin-left:50px;
+    padding:20px 10px;
+}
+.section-4 h4{
+    margin-left:50px;
+    padding:20px 10px;
+}
+.tutorials{
+    margin:35px;
+    padding:20px;
+    font-weight: 500;
+    display:flex;
+    justify-content: center;
+}
